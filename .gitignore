@@ -1,0 +1,105 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*-dist
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/agent-eval-report*
+packages
+pids
+.file-manifest
+.devcontainer/
+
+.spark-workbench-id
+
+# Firebase build artifacts
+.firebase/
+
+# Additional sensitive files
+coverage/
+.nyc_output/
+.cache/
+.eslintcache
+*.tgz
+.npm
+.yarn/integrity
+.temp/
+*.swp
+*.swo
+
+# Logs directory
+logs/
+*.log
+
+# API Keys and Secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+secrets.json
+credentials.json
+service-account*.json
+.secrets/
+.credentials/
+
+# Environment variables (comprehensive)
+.env*
+!.env.example
+!.env.template
+.envrc
+.envrc.local
+
+# Backup files that might contain secrets
+*.bak
+*.backup
+*.old
+*.orig
+*~
+.~*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+
+# Cloud provider credentials
+.aws/
+.gcloud/
+.azure/
+google-credentials.json
+aws-credentials.json
+
+# Security scan results
+.snyk
+security-report*.json
+vulnerability-report*.json
+
+# Windows special device files
+nul
